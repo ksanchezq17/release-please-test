@@ -4,9 +4,9 @@
     "tag-separator": "@",
     "separate-pull-requests": true,
     "packages": {
-      "hello-react": {
+      "python": {
         "path": "python",
-        "release-type": "node"
+        "release-type": "python"
       }
     }
   }
