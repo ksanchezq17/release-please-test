@@ -12,11 +12,6 @@ permissions:
 jobs:
   release-please:
     runs-on: ubuntu-latest
-    outputs:
-      hello-react--tag_name: ${{ steps.release.outputs.hello-react--tag_name}}
-      hello-react--release_created: ${{ steps.release.outputs.hello-react--release_created}}
-      hello-python--tag_name: ${{ steps.release.outputs.hello-python--tag_name}}
-      hello-python--release_created: ${{ steps.release.outputs.hello-python--release_created}}
     steps:
       - uses: googleapis/release-please-action@v4
         id: release
@@ -24,11 +19,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
-      - name: Print release outputs for debugging
-        continue-on-error: true
-        run: |
-          echo "Release outputs:"
-          echo "${{ toJson(steps.release.outputs) }}"
+
 
 
   # release-hello-react:
