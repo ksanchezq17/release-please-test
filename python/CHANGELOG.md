@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.2](https://github.com/ksanchezq17/release-please-test/compare/v0.0.13...v1.1.2) (2024-07-31)
+
+
+### Bug Fixes
+
+* subtraction ([605f203](https://github.com/ksanchezq17/release-please-test/commit/605f203c9852a3f57070223cb8793d37ce2bbf69))
+
+
+### Miscellaneous Chores
+
+* release my-app  1.1.2 ([64c5e55](https://github.com/ksanchezq17/release-please-test/commit/64c5e5558fb0670486a67bfda6557c0ef1478f17))
+
 ## [0.0.13](https://github.com/ksanchezq17/release-please-test/compare/v0.0.12...v0.0.13) (2024-07-31)
 
 
