@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.13](https://github.com/ksanchezq17/release-please-test/compare/v0.0.12...v0.0.13) (2024-07-31)
+
+
+### Bug Fixes
+
+* module ([6c6348f](https://github.com/ksanchezq17/release-please-test/commit/6c6348f8e85d0bae77fa541c8d91e7df8db9d89e))
+
 ## [0.0.12](https://github.com/ksanchezq17/release-please-test/compare/v0.0.11...v0.0.12) (2024-07-31)
 
 
