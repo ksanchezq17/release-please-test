@@ -9,11 +9,23 @@ format:
 	black *.py 
 
 lint:
-	pylint --disable=R,C  $(git ls-files '*.py') --ignore-patterns=test_.*?py 
-container-lint:
+	ruff check python
+	#pylint --disable=R,C  "$(git ls-files '*.py')"
 	docker run --rm -i hadolint/hadolint < Dockerfile
 
-refactor: format lint
+.PHONY: check-format
+check-format: ## check ruff format
+	ruff format python --check
+
+.PHONY: check-frontend-lint
+check-frontend-lint: ## check frontend lint
+	cd frontend && npm run lint
+
+refactor: 
+	ruff format python
+
+build:
+	cd python && python setup.py bdist_wheel --universal
 
 deploy:
 	#deploy goes here
