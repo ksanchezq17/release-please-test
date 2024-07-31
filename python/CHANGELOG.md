@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/ksanchezq17/release-please-test/compare/v0.1.0...v0.1.1) (2024-07-31)
+
+
+### Bug Fixes
+
+* fixing lint commands ([f3d1fe8](https://github.com/ksanchezq17/release-please-test/commit/f3d1fe8ee15d6a324bbb4f801bb917502f622c4c))
+
 ## 0.1.0 (2024-07-30)
 
 
