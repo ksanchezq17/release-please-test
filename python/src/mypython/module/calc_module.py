@@ -7,7 +7,7 @@ def adder(start: int):
 
 
 def subtraction(start: int):
-    return lambda x: start - x
+    return lambda y: start - y
 
 
 def division(start: int):
