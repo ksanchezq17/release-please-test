@@ -7,10 +7,10 @@
       "python": {
         "path": "python",
         "release-type": "python"
-      }
-    },
+      },
     "react": {
       "path": "my-app",
       "release-type": "node"
     }
   }
+}
