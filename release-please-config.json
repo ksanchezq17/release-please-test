@@ -8,7 +8,7 @@
         "path": "python",
         "release-type": "python"
       },
-    "react": {
+    "my-app": {
       "path": "my-app",
       "release-type": "node"
     }
