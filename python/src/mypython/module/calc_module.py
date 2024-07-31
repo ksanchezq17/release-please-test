@@ -8,3 +8,6 @@ def adder(start: int):
 
 def subtraction(start: int):
     return lambda y: start - y
+
+def division(start: int):
+    return lambda y: start / y
