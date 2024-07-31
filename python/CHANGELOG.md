@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.12](https://github.com/ksanchezq17/release-please-test/compare/v0.0.11...v0.0.12) (2024-07-31)
+
+
+### Miscellaneous Chores
+
+* release 0.0.12 ([f4fb326](https://github.com/ksanchezq17/release-please-test/commit/f4fb3260fcee2225928d95c310c9a5a43445010c))
+
 ## [0.0.11](https://github.com/ksanchezq17/release-please-test/compare/v0.0.11...v0.0.11) (2024-07-31)
 
 
@@ -20,5 +27,3 @@
 ### Miscellaneous Chores
 
 * release 0.0.11 ([af6f72c](https://github.com/ksanchezq17/release-please-test/commit/af6f72c6c35de525acdafb1b0a8143a57479b3df))
-
-
